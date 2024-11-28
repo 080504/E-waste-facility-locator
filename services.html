@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Waste Facility Locator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <script>history.scrollRestoration = "manual"</script>
+  </head>
+  <body>
+
+<!-- Navbar -->
+<div id="nav-main">
+<nav id="nav">
+  <div class="menu-bar">
+    <div class="menu-tabs">
+      <li><a href="./index.html"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+      <li><a href="./about.html"><i class="fa-solid fa-book-open"></i><span>About</span></a></li>
+      <li><a href="./services.html"><i class="fa-solid fa-screwdriver-wrench"></i><span>Services</span></a></li>
+      <li><a href="./faq.html"><i class="fa-solid fa-circle-question"></i><span>FAQ</span></a></li>
+      <li><a href="./team.html"><i class="fa-solid fa-people-group"></i><span>Team</span></a></li>
+    </div>
+  </div>
+</nav>
+<div id="nav-down" class="nav-down-2"></div>
+<div id="nav-down" class="nav-down-1"></div>
+
+
+</div>
+
+<!-- Navbar -->
+<div id="top">
+  <a href="./index.html"><img src="./img/logo.png"></a>
+  <div class="top-login">
+    <ul>
+      <li><a href="#" onclick="login()" id="login-btn">Login</a></li>
+      <li><a href="#" onclick="register()" id="register-btn">Register</a></li>
+      <li><a href="#" onclick="Logout()" id="logout-btn">Logout</a></li>
+    </ul>
+  </div>
+</div>
+<!-- Navbar -->
+
+<!-- Pop-up Section -->
+<div id="popup">
+  <div id="popupc">
+    </div>
+    <div id="close">
+    <i onclick="hidePopup()" class="fa-solid fa-circle-xmark fa-xl"> Close</i>
+  </div>
+</div>
+
+<!-- Pop-up Section -->
+
+<!-- Service Section -->
+
+<section id="services">
+    <h1>Our Services And Solutions</h1>
+    <div class="service-left">
+        <div class="box">
+          <div class="container1">
+            <h4> Data Center Decommissioning</h4>
+            <i class="fa-solid fa-database fa-2xl" style="color: #1acc8d;"></i>
+          </div>
+          <div class="container2">
+            <h4>Enterprise Asset Disposition</h4>
+            <i class="fa-solid fa-house-chimney fa-2xl" style="color: #1acc8d;"></i>
+          </div>
+          <div class="container3">
+            <h4>Environmental Reporting</h4>
+            <i class="fa-solid fa-leaf fa-2xl" style="color: #1acc8d;"></i>
+          </div>
+        </div>   
+    </div>
+    <div class="service-mid">
+      <h1>Our Services And Solutions</h1>
+        <div class="box">
+          <div class="container">
+            <img class="middle-img" src="img/download.jpg" alt="">
+          </div>
+        </div>    
+    </div>        
+    <div class="service-right">
+      <div class="box">
+        <div class="container4">
+          <i class="fa-solid fa-lightbulb fa-2xl" style="color: #1acc8d;"></i>
+          <h4>Optimized Innovation</h4>
+        </div>
+        <div class="container5">
+          <i class="fa-solid fa-microchip fa-2xl" style="color: #1acc8d;"></i>
+          <h4>Product Technology</h4>
+        </div>
+        <div class="container6">
+          <i class="fa-solid fa-recycle fa-2xl" style="color: #1acc8d;"></i>
+          <h4>Reverse Supply Chain</h4>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  
+  <!-- Service Section -->
+</body>
+<script src="script.js"></script>
+<script type="module" src="register.js"></script>
+</html>
